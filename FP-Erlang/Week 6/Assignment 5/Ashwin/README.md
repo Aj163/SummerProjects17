@@ -8,7 +8,7 @@ PART 1
 
 Currying is the partial application of a function. The 4 functions add, subtract, multiply, and divide
 are curried. They accept one parameter and return a function which when given the another parameter
-performs the operation between the 2 parameters.
+performs the operation between the 2 parameters. The 2 parameter forms of these are implemented using the curried forms.
 
 PART 2
 
