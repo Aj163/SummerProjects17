@@ -4,6 +4,7 @@
 
 % ############################################################################# Question 1
 -export([add/1, subtract/1, multiply/1, divide/1]).
+-export([add2/2, subtract2/2, multiply2/2, divide2/2]).
 -export([greaterThanX/1, lessThanX/1]).
 % Function 1
 -export([takewhilePred/1, twp/2]).
@@ -32,6 +33,21 @@ subtract(A) -> fun(X) -> A-X end.
 multiply(A) -> fun(X) -> X*A end.
 divide(A) -> fun(X) -> A/X end.
 
+add2(X, Y) -> 
+	F = add(X),
+	F(Y).
+
+subtract2(X, Y) -> 
+	F = subtract(X),
+	F(Y).
+
+multiply2(X, Y) -> 
+	F = multiply(X),
+	F(Y).
+
+divide2(X, Y) -> 
+	F = divide(X),
+	F(Y).
 
 % Part 2
 
