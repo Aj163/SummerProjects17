@@ -30,4 +30,4 @@ integral(A, B, N, F) - evaluates the integral of F over [A, B], with N partition
 
 ################################################################################################ Question 4
 
-foldl is implemented using folr.
+foldl is implemented using foldr.
